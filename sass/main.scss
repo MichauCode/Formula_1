@@ -22,7 +22,7 @@ nav {
 			color: $white;
 		}
 		.nav-link:hover {
-			color: $blue-color;
+			color: $red-color;
 		}
 	}
 	.navbar-brand {
@@ -34,6 +34,17 @@ nav {
 		color: $white;
 	}
 	.active {
-		color: $blue-color;
+		color: $red-color;
+	}
+}
+header {
+	color: $white;
+
+	h1 {
+		text-transform: uppercase;
+	}
+	.hero-img {
+		height: 100vh;
+		background-image: url("../img/formula1.png");
 	}
 }
