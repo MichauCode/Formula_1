@@ -11,11 +11,22 @@
 body {
 	position: relative;
 	font-family: "Montserrat", sans-serif;
-	background-color: #444;
+	background-color: $grey-color;
+}
+
+.red-text {
+	color: $red-color;
+}
+
+.shadow-bg {
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 nav {
 	text-transform: uppercase;
+	width: 100%;
+	z-index: 1;
+	transition: background-color 0.6s;
 
 	.navbar-nav {
 		.nav-link {
@@ -42,9 +53,39 @@ header {
 
 	h1 {
 		text-transform: uppercase;
+		font-weight: bold;
 	}
 	.hero-img {
+		position: relative;
 		height: 100vh;
 		background-image: url("../img/formula1.png");
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		z-index: 0;
+	}
+	.hero-shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: -10;
+	}
+	.hero-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		flex-direction: column;
+		z-index: 5;
+		text-align: center;
+		padding: 10px;
+	}
+	.fa-chevron-down {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 30px;
+		bottom: 20px;
 	}
 }
