@@ -7,6 +7,9 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+	scroll-padding-top: 82px;
+}
 
 body {
 	position: relative;
@@ -14,8 +17,18 @@ body {
 	background-color: $grey-color;
 }
 
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+.underline {
+	margin: 0 auto 40px;
+	width: 60px;
+	height: 4px;
+	background-color: $main-color;
+}
 .red-text {
-	color: $red-color;
+	color: $main-color;
 }
 
 .shadow-bg {
@@ -33,7 +46,7 @@ nav {
 			color: $white;
 		}
 		.nav-link:hover {
-			color: $red-color;
+			color: $main-color;
 		}
 	}
 	.navbar-brand {
@@ -45,7 +58,10 @@ nav {
 		color: $white;
 	}
 	.active {
-		color: $red-color;
+		color: $main-color;
+	}
+	.fa-bolt {
+		padding-right: 10px;
 	}
 }
 header {
@@ -87,5 +103,26 @@ header {
 		transform: translateX(-50%);
 		font-size: 30px;
 		bottom: 20px;
+	}
+}
+
+.aboutus {
+	i {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.aboutus-card-text {
+		font-size: 14px;
+	}
+	.about-us-hover {
+		transition: 0.5s;
+	}
+	.about-us-hover:hover {
+		cursor: pointer;
+		color: $main-color;
 	}
 }
