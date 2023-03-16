@@ -126,3 +126,21 @@ header {
 		color: $main-color;
 	}
 }
+
+.aboutus-hero {
+	position: relative;
+	background-image: url("../img/formula1.png");
+	background-position: center;
+	background-size: cover;
+	color: $light-gray;
+	z-index: 0;
+
+	.aboutus-shadow {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: -5;
+	}
+}

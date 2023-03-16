@@ -121,4 +121,21 @@ header .fa-chevron-down {
 .aboutus .about-us-hover:hover {
   cursor: pointer;
   color: rgb(206, 4, 4);
+}
+
+.aboutus-hero {
+  position: relative;
+  background-image: url("../img/formula1.png");
+  background-position: center;
+  background-size: cover;
+  color: #ddd;
+  z-index: 0;
+}
+.aboutus-hero .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -5;
 }/*# sourceMappingURL=main.css.map */
