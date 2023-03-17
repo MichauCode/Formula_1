@@ -129,7 +129,7 @@ header {
 
 .aboutus-hero {
 	position: relative;
-	background-image: url("../img/formula1.png");
+	background-image: url("../img/Audi.jpg");
 	background-position: center;
 	background-size: cover;
 	color: $light-gray;
@@ -140,7 +140,25 @@ header {
 		top: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.8);
+		background-color: rgba(0, 0, 0, 0.9);
 		z-index: -5;
+	}
+	i {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.aboutus-card-text {
+		font-size: 14px;
+	}
+	.about-us-hover {
+		transition: 0.5s;
+	}
+	.about-us-hover:hover {
+		cursor: pointer;
+		color: $main-color;
 	}
 }

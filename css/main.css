@@ -125,7 +125,7 @@ header .fa-chevron-down {
 
 .aboutus-hero {
   position: relative;
-  background-image: url("../img/formula1.png");
+  background-image: url("../img/Audi.jpg");
   background-position: center;
   background-size: cover;
   color: #ddd;
@@ -136,6 +136,24 @@ header .fa-chevron-down {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   z-index: -5;
+}
+.aboutus-hero i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.aboutus-hero .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.aboutus-hero .aboutus-card-text {
+  font-size: 14px;
+}
+.aboutus-hero .about-us-hover {
+  transition: 0.5s;
+}
+.aboutus-hero .about-us-hover:hover {
+  cursor: pointer;
+  color: rgb(206, 4, 4);
 }/*# sourceMappingURL=main.css.map */
