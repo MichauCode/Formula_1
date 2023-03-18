@@ -136,7 +136,7 @@ header .fa-chevron-down {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: -5;
 }
 .aboutus-hero i {
@@ -156,4 +156,21 @@ header .fa-chevron-down {
 .aboutus-hero .about-us-hover:hover {
   cursor: pointer;
   color: rgb(206, 4, 4);
+}
+
+.portfolio .carousel-item {
+  position: relative;
+  height: 600px;
+  text-align: center;
+}
+.portfolio .carousel-item img {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.portfolio .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
 }/*# sourceMappingURL=main.css.map */
